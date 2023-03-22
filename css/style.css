@@ -231,6 +231,10 @@
     border-radius: 23px;
 }
 
+.page_images img {
+    max-width: 100%;
+}
+
 
 /*** Quote ***/
 
