@@ -1,5 +1,9 @@
 /********** Template CSS **********/
 
+body {
+    top: 0px!important;
+}
+
 :root {
     --primary: #FF800F;
     --secondary: #001064;
@@ -342,6 +346,79 @@
 .team-item:hover .team-img .team-social {
     transition-delay: .3s;
     opacity: 1;
+}
+
+
+/*** Translate Drop Down ***/
+
+.fixed-con {
+    z-index: 9724790009779558!important;
+    background-color: #f7f8fc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+    z-index: 9724790009779!important;
+    top: 0;
+    left: unset;
+    right: -5px;
+    display: none!important;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO {
+    width: 80px;
+    height: 80px;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none!important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+#google_translate_element select {
+    background-color: #f6f7f8;
+    color: #696E77;
+    border: none;
+    border-radius: 0px;
+    padding: 9px 29px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    width: 240px;
+    /* margin-top: 7px; */
+    font-weight: 400;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent!important;
+    font-size: 0px!important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
 }
 
 
